@@ -8,7 +8,8 @@
  <section class="arena" id="arena"><canvas id="game" aria-label="遊戲場地，點擊何老師進行攻擊"></canvas><div class="arena-top"><span><i></i> 校園防衛戰</span><span id="status">準備開打</span></div><div id="toast" class="toast"></div>
  <div id="intro" class="overlay"><div class="intro-copy"><p class="eyebrow">60 SECONDS. NO MORE 岳父.</p><h1>何老師，<br>不要喊我<span>岳父！</span></h1><p>他又來了。換好武器，守住你的稱呼。</p><button id="start" class="primary" disabled>圖片載入中…</button><p class="hint">點擊角色攻擊 · 1 / 2 或下方按鈕切換武器</p></div><div class="portrait"><div class="bubble" id="bubble">岳父！</div><img src="何老師-去背.png" alt="何老師遊戲角色"></div></div>
  <div id="result" class="overlay hidden"><div class="result-card"><p class="eyebrow">TIME'S UP / 挑戰結束</p><h2 id="resultTitle">稱呼保衛成功？</h2><strong id="finalScore">0</strong><p id="stats"></p><p id="record"></p><button class="primary" id="restart">再戰 60 秒 ↗</button></div></div>
+ <div id="cooldown" class="cooldown hidden" role="status"></div>
  <div class="range-label">球棒有效區域 / NEAR RANGE</div></section>
  <section class="loadout" aria-label="選擇武器"><button class="weapon selected" id="bat" aria-pressed="true"><kbd>1</kbd><img src="—Pngtree—baseball bat commercial material element_4041346.png" alt="球棒"><div><small>CLOSE RANGE</small><b>球棒</b><span>近距離 · +150 分 · 揮擊範圍大</span></div><em>使用中</em></button><button class="weapon" id="gun" aria-pressed="false"><kbd>2</kbd><img src="—Pngtree—green sniper gun illustration_7057363.png" alt="槍"><div><small>LONG RANGE</small><b>槍</b><span>全距離 · +100 分 · 精準點擊</span></div><em>切換</em></button></section>
- <footer><span>讓他靠近再揮棒，或用槍提前攔截。連續命中有加分！</span><span>漏掉 −50 分 · 失手中斷連擊</span></footer>
+ <footer><span>隨機大中小體型 · 瞄準頭部，基礎分數 ×2！連續命中再加分。</span><span>隨機加速 ×2.5 · 失手冷卻 1.2 秒 · 漏掉 −50 分</span></footer>
 </main><script src="game.js"></script></body></html>
